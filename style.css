@@ -5,7 +5,7 @@
 body {
     font-family: 'Roboto Mono', monospace;
     min-height: 400px;
-    background-image: url('https://images.unsplash.com/photo-1597591506432-86b38852af8f?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=977&q=80');
+    background-image: url('https://i.pinimg.com/originals/fc/63/b8/fc63b8cd251f4acab5d0ad3d5cc34df1.jpg');
     background-color: #111;
     background-size: 100%;
     background-position: center;
@@ -60,7 +60,7 @@ th, tr, td {
     font-weight:bold;
     padding: 15px 20px;
     font-size: 16px;
-    borde-radius: 4px;
+    border-radius: 4px;
     margin-top: 20px;
     cursor: pointer;
     transition: .3s;

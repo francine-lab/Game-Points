@@ -10,10 +10,11 @@ The job was to remove the static HTML and create an object for each player with 
 
 ## Extra task
 
-- I implemented a function that catches new players, and a function that sets the initial points for each player, and displays it in a table on the screen. The users can click on a button for each victory, and it will automatically update the total points on the table. The points from ties are automatically set for all players at the same time :D
+- I implemented a function that catches new players and a function that sets the initial values for each player including a random mascot, and displays it in a table on the screen. 
+- The users can click on a button for each victory, and it will automatically update the total points on the table. 
+- The points from ties are automatically set for all players at the same time.
+- The mascot can be randomly changed according to the player's wishes :D
 
 ## To do
 
-- Include an image in each player's line.
 - Include the defeat account automatically with the victories.
-- Improve style.
