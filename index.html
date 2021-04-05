@@ -1,19 +1,10 @@
 <!DOCTYPE html>
 <html lang="en" >
+
 <head>
   <meta charset="UTF-8">
-  <title>CodePen - Tabela de classificação</title>
+  <title>Game Points</title>
   <link rel="stylesheet" href="./style.css">
-
-</head>
-<body>
-<!-- partial:index.partial.html -->
-<html>
-
-<head>
-    <title>
-        Imersão Dev - Aula 06
-    </title>
 </head>
 
 <body>
@@ -22,7 +13,7 @@
     <table style="width:100%">
         <thead>
             <tr>
-                <th>Player</th>
+                <th>Players</th>
                 <th>Victories</th>
                 <th>Ties</th>
                 <th>Defeats</th>
@@ -30,37 +21,13 @@
                 <th>Actions</th>
             </tr>
         </thead>
-        <tbody id="playersTable">
-<!--               <tr>
-    <td>Paulo</td>
-    <td>2</td>
-    <td>1</td>
-    <td>1</td>
-    <td>7</td>
-    <td><button onClick="addVictory()">Victory</button></td>
-    <td><button onClick="addTie()">Tie</button></td>
-    <td><button onClick="addDefeat()">Defeat</button></td>
-  </tr>
-  <tr>
-    <td>Rafa</td>
-    <td>1</td>
-    <td>4</td>
-    <td>2</td>
-    <td>7</td>
-    <td><button onClick="addVictory()">Victory</button></td>
-    <td><button onClick="addTie()">Tie</button></td>
-    <td><button onClick="addDefeat()">Defeat</button></td>
-  </tr> -->
-        </tbody>
+        <tbody id="playersTable"></tbody>
     </table>
   <div class="form-wrapper">
     <input type="text" id="newPlayer" placeholder="Type the name os the player">
     <button onClick="addPlayer(teamPlayers)">Add player</button>
   </div>
-</body>
 
-</html>
-<!-- partial -->
   <script  src="./script.js"></script>
 
 </body>
