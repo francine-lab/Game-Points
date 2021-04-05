@@ -18,3 +18,8 @@ The job was to remove the static HTML and create an object for each player with 
 ## To do
 
 - Include the defeat account automatically with the victories.
+- Use only one button for the tie.
+- Add valid input for player name (not empty).
+- Add button to remove a player.
+- Add button to edit a player.
+- Add button to reset game scores.
